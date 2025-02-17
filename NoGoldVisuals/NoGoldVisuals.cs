@@ -13,7 +13,7 @@ namespace NoGoldVisuals
         public const string PluginGUID = PluginAuthor + "." + PluginName;
         public const string PluginAuthor = "The-regular-Hedgehogs";
         public const string PluginName = "NoGoldVisuals";
-        public const string PluginVersion = "1.0.4";
+        public const string PluginVersion = "1.0.5";
 
         public void Awake()
         {

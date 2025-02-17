@@ -1,3 +1,7 @@
+-   **1.0.5**
+
+    -   Transfered project to community github and fixed icon
+
 -   **1.0.4**
 
     -   Refurbished code and updated README.md for clarification
