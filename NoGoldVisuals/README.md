@@ -33,7 +33,8 @@
 
 ## 🔄 Compatibility & Updates  
 ✅ **Compatible with all BepInEx mods**  
-✅ **Multiplayer safe**  
+✅ **Multiplayer safe** (Only the Host needs the mod!)  
+✅ **Works in both Singleplayer and Multiplayer as long as the Host has the mod**  
 ✅ **Will be updated for future RoR2 patches**  
 
 🚀 **For bug reports & feature requests, visit:** [GitHub Issues](https://github.com/The-regular-Hedgehogs/NoGoldVisuals/issues)  
@@ -46,6 +47,9 @@
 
 ❓ **Does this improve performance?**  
 ➡️ Yes, especially in late-game runs where thousands of gold effects can spawn.  
+
+❓ **Do all players need to install the mod in Multiplayer?**  
+➡️ No! Only the Host needs the mod. Players who join the lobby do not need to install it.  
 
 ---
 

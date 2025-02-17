@@ -1,6 +1,6 @@
 -   **1.0.4**
 
-    -   Refurbished code
+    -   Refurbished code and updated README.md for clarification
 
 -   **1.0.3**
 
