@@ -50,10 +50,10 @@
 ---
 
 ## 💙 Credits & Acknowledgments
-🛠️ **Developed by:** [Pascal-Stellmacher](https://github.com/Pascal-Stellmacher)
-🛠️ **Developed by:** [『Hypocrite69』](https://github.com/Hypocrite69)
+🛠️ **Developed by:** [Pascal-Stellmacher](https://github.com/Pascal-Stellmacher)  
+🛠️ **Developed by:** [『Hypocrite69』](https://github.com/Hypocrite69)  
 **Risk of Rain 2 Modding Community** for support  
-**Risk of Thunder Team** for the Boilerplate project
+**Risk of Thunder Team** for the Boilerplate project  
 
 ---
 
