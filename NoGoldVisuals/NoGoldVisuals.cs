@@ -23,15 +23,15 @@ namespace NoGoldVisuals
         private void DisableGoldEffect(On.RoR2.DeathRewards.orig_OnKilledServer orig, DeathRewards self, DamageReport damageReport)
         {
 
-            if (self.goldReward != 0)
+            if (self.goldReward > 0)
             {
                 TeamManager.instance.GiveTeamMoney(damageReport.attackerTeamIndex, self.goldReward);
-                TeamManager.instance.GiveTeamExperience(damageReport.attackerTeamIndex, (ulong)self.expReward);
+                TeamManager.instance.GiveTeamExperience(damageReport.attackerTeamIndex, self.expReward);
+
+                return;
             }
-            else
-            {
-                orig.Invoke(self, damageReport);
-            }
+
+            orig(self, damageReport);
         }
     }
 }
