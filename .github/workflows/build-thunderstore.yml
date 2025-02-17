@@ -3,7 +3,7 @@ name: Build Thunderstore ZIP
 on:
   push:
     branches:
-      - main  # oder der Branch, auf dem ihr arbeitet
+      - master
 
 jobs:
   zip-thunderstore:
