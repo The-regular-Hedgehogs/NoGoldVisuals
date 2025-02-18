@@ -1,6 +1,7 @@
 using BepInEx;
 using R2API;
 using RoR2;
+using UnityEngine;
 
 namespace NoGoldVisuals
 {
@@ -13,25 +14,28 @@ namespace NoGoldVisuals
         public const string PluginGUID = PluginAuthor + "." + PluginName;
         public const string PluginAuthor = "The-regular-Hedgehogs";
         public const string PluginName = "NoGoldVisuals";
-        public const string PluginVersion = "1.0.5";
+        public const string PluginVersion = "1.1.0";
 
         public void Awake()
         {
-            On.RoR2.DeathRewards.OnKilledServer += DisableGoldEffect;
+            On.RoR2.EffectManager.SpawnEffect_GameObject_EffectData_bool += DisableGoldEffect;
         }
 
-        private void DisableGoldEffect(On.RoR2.DeathRewards.orig_OnKilledServer orig, DeathRewards self, DamageReport damageReport)
+        private void DisableGoldEffect(On.RoR2.EffectManager.orig_SpawnEffect_GameObject_EffectData_bool orig, GameObject effectPrefab, EffectData effectData, bool transmit)
         {
 
-            if (self.goldReward > 0)
+            if (effectPrefab == null)
             {
-                TeamManager.instance.GiveTeamMoney(damageReport.attackerTeamIndex, self.goldReward);
-                TeamManager.instance.GiveTeamExperience(damageReport.attackerTeamIndex, self.expReward);
-
+                orig(effectPrefab, effectData, transmit);
                 return;
             }
 
-            orig(self, damageReport);
+            if (effectPrefab.name == "CoinEmitter")
+            {
+                return;
+            }
+
+            orig(effectPrefab, effectData, transmit);
         }
     }
 }
