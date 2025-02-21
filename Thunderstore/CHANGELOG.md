@@ -1,19 +1,23 @@
+- **1.1.1**
+
+    -   Formatted changelog and enhanced mod description.
+ 
 - **1.1.0**
     
     -   **Bug Fixes:**
-      - Fixed an issue where items would not spawn after completing Void Field cells.
-      - Fixed a bug that prevented the False Son from spawning after the cutscene in the Prime Meridian fight.
-      - Fixed a bug that prevented Mithrix from spawning after the cutscene at the apex of Commencement.
+    - Fixed an issue where items would not spawn after completing Void Field cells.
+    - Fixed a bug that prevented the False Son from spawning after the cutscene in the Prime Meridian fight.
+    - Fixed a bug that prevented Mithrix from spawning after the cutscene at the apex of Commencement.
     
     -   **Changes:**
-      - The mod is no longer purely client-side. All players in a session (including clients) must now have the mod installed for it to work correctly.
+    - The mod is no longer purely client-side. All players in a session (including clients) must now have the mod installed for it to work correctly.
         (Previously, only the host needed it.)
       
     -   **Improvements:**
-      - Optimized the handling of gold-related visual effects to prevent unintended interactions with the game's reward system.
+    - Optimized the handling of gold-related visual effects to prevent unintended interactions with the game's reward system.
     
     -   **Miscellaneous:**
-      - Probably many more currently unknown interactions have been fixed or altered.
+    - Probably many more currently unknown interactions have been fixed or altered.
 
 ---
 

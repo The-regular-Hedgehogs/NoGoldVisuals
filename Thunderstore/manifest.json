@@ -1,8 +1,8 @@
 ﻿{
     "name": "NoGoldVisuals",
-    "version_number": "1.1.0",
+    "version_number": "1.1.1",
     "website_url": "https://github.com/The-regular-Hedgehogs/NoGoldVisuals",  
-    "description": "Removes the gold visual effects but keeps the gold reward.",
+    "description": "Removes the gold visual effects but keeps the gold reward to increase performance and reduce lag.",
     "dependencies": [ 
         "bbepis-BepInExPack-5.4.1900",
         "tristanmcpherson-R2API-5.0.0" 
